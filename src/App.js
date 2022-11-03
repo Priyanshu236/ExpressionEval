@@ -13,7 +13,7 @@ function App() {
   const [valD,setValD]=useState(-1)
   useEffect(() => {
     // GET request using fetch inside useEffect React hook
-    fetch('https://calculator236.herokuapp.com/')
+    fetch('https://calculator236.herokuapp.com/variables')
       .then(response => response.json()).then((json)=>{ json.forEach(element => {
         if(element.name=='A')
         {
