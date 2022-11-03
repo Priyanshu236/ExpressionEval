@@ -5,7 +5,7 @@ require("dotenv").config()
 const PORT = process.env.PORT || 5000;
 const path = require("path")
 const buildPath = path.join(__dirname, '..', 'build');
-app.use(express.static(buildPath));
+// app.use(express.static(buildPath));
 const mongoose=require("mongoose")
 const number=require("./Number")
 app.use(cors())
