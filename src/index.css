@@ -11,3 +11,48 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.opr-box
+{
+  padding: 25px 30px;
+  text-align: center;
+  margin: 20px;
+  background-color: bisque;
+}
+.operands{
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  margin: 15px;
+
+}
+.drag-container{
+  height: 50px;
+  border: 8px dashed grey;
+}
+.var-container{
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  margin: 15px;
+ 
+}
+.drag-container{
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  margin: 15px;
+  height: 125px;
+}
+.var{
+  padding: 35px 40px;
+  margin: 15px;
+  background-color: rgba(248, 111, 111, 0.591);
+}
+.eval-button{
+  margin: 20px;
+  border-radius: 10px;
+  text-align: center;
+  padding: 10px 0;
+  background-color: aqua;
+  cursor: pointer;
+}
